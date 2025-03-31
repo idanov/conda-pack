@@ -35,7 +35,7 @@ setup(
             'conda-pack = conda_pack.plugin',
         ],
     },
-    install_requires=["setuptools", "conda"],
+    install_requires=["setuptools"],
     python_requires=">=3.8",
     zip_safe=False,
 )
